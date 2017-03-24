@@ -1,0 +1,108 @@
+.menu-overlay {
+  background: #1c1c1c;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  z-index: 2;
+}
+
+.nav-list {
+  position: relative;
+  margin-top: 180px;
+  font-size: 39px;
+  margin-left: 14px;
+}
+
+.nav-list__item {
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  list-style: none;
+}
+
+.nav-list__anchor {
+	color: white;
+}
+
+.nav-list__span  {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: #fbb648;
+}
+
+.nav-list__home--left-span {
+  left: 5px;
+  top: 10px;
+}
+
+.nav-list__home--right-span {
+  left: 128px;
+  top: 10px;
+}
+
+.nav-list__portfolio--left-span {
+  top: 53px;
+  left: 5px;
+}
+
+.nav-list__portfolio--right-span {
+  top: 53px;
+  left: 188px;
+}
+
+.nav-list__about--left-span {
+  left: 5px;
+  top: 96px;
+}
+
+.nav-list__about--right-span {
+  left: 138px;
+  top: 96px;
+}
+
+.nav-list__contact--left-span {
+  left: 5px;
+  top: 140px;
+}
+
+.nav-list__contact--right-span {
+  left: 168px;
+  top: 140px;
+}
+
+/*.nav-list__blog--left-span {
+  left: -28px;
+  top: 170px;
+}
+
+.nav-list__blog--right-span {
+  left: 75px;
+  top: 170px;
+}*/
+
+.social {
+  position: absolute;
+  left: 35px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.social__icon {
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+
+  &:hover {
+    background: orange;
+    transition: .3s ease-in-out;
+  }
+}

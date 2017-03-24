@@ -1,0 +1,145 @@
+.hero {
+  background: #121212;
+  height: 100vh;
+  padding: 0px 10% 0 10%;
+  position: relative;
+  overflow: hidden;
+  @media (min-width: 768px) {
+    border-top: none;
+    padding: 0 18% 0 18%;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 20px 10% 0 15%;
+  }
+}
+
+.hero__header {
+  color: white;
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 100;
+  letter-spacing: .9px;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 180px;
+  opacity: 0;
+  // text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 32px;
+    line-height: 51px;
+    // width: 90%;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 40px;
+    line-height: 60.72px;
+  }
+}
+
+.hero__header-accent {
+  display: none;
+  opacity: 0;
+  background: #fbb648;
+  margin-top: 35px;
+  height: 7px;
+  width: 0;
+
+  @media (min-width: 768px) {
+    margin-top: 25px;
+    display: block;
+  }
+}
+
+.hero__header-accent--mobile {
+  display: block;
+  background: #fbb648;
+  margin-top: 35px;
+  opacity: 0;
+  height: 3px;
+  width: 50px;
+  z-index: -100;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.hero__header-acccent-down {
+  display: none;
+  opacity: 0;
+  background: #fbb648;
+  position: absolute;
+  right: 27.6%;
+  height: 0;
+  width: 7px;
+
+  @media (min-width: 768px) {
+    right: 27.6%;
+    display: block;
+  }
+
+  @media (min-width: 1024px) {
+    right: 32.5%;
+  }
+}
+
+.hero__sub-header {
+  opacity: 0;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 32px;
+  margin-bottom: 30px;
+  transform: scale(.99);
+  color: grey;
+
+  @media (min-width: 768px) {
+    width: 70%;
+    margin-top: 50px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 60%;
+  }
+}
+
+.hero-btn {
+  opacity: 0;
+  border: 2px solid rgba(255, 255, 255, .2);
+	display: inline-block;
+  overflow: hidden;
+  position: relative;
+  top: 15px;
+  left: 0;
+	// height: 60px;
+  height: 50px;
+  width: 180px;
+  z-index: 1;
+  @media (min-width: 768px) {
+    background: transparent;
+  }
+}
+
+.hero-btn__text {
+  color: #fbb648;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  letter-spacing: 1.6px;
+	line-height: 50px;
+  position: relative;
+	text-transform: uppercase;
+}
+
+// .project-btn__overlay {
+//   display: none;
+//   transform: rotate(45deg);
+//   left: -400px;
+//   top: -50px;
+//   height: 250px;
+//   width: 350px;
+//
+//   @media (min-width: 768px) {
+//     z-index: 1;
+//   }
+// }
